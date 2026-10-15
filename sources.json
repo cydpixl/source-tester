@@ -39,21 +39,6 @@
       "rank": 2
     },
     {
-      "id": "vidrift",
-      "name": "VidRift",
-      "home": "https://vidrift.net/",
-      "docs": "https://vidrift.net/docs/",
-      "embed": "https://embed.vidrift.net/embed/movie/299534",
-      "adapter": "vidrift",
-      "controls": false,
-      "referrerPolicy": "strict-origin-when-cross-origin",
-      "group": "sandbox",
-      "defaultMode": "sandbox",
-      "baseline": "Sandbox video observed",
-      "note": "Decoded Endgame video was observed in a sandboxed browser check on October 15, 2026. The provider documentation warns that sandboxing is unsupported, so compatibility may change.",
-      "rank": 3
-    },
-    {
       "id": "screenscape",
       "name": "ScreenScape",
       "home": "https://flix.screenscape.me/embed",
@@ -66,7 +51,7 @@
       "defaultMode": "sandbox",
       "baseline": "Sandbox video observed",
       "note": "Decoded Endgame video was observed in a sandboxed browser check on October 15, 2026.",
-      "rank": 4
+      "rank": 3
     },
     {
       "id": "111movies",
@@ -81,7 +66,7 @@
       "defaultMode": "sandbox",
       "baseline": "Sandbox playback unconfirmed",
       "note": "No decoded video was observed in the bounded sandbox startup check. Interaction or more loading time may be needed; this does not prove a failure. Decoded video was observed in normal mode.",
-      "rank": 5
+      "rank": 4
     },
     {
       "id": "vidlove",
@@ -96,7 +81,7 @@
       "defaultMode": "sandbox",
       "baseline": "Sandbox playback unconfirmed",
       "note": "No decoded video was observed in the bounded sandbox startup check. Interaction or more loading time may be needed; this does not prove a failure. Decoded video was observed in normal mode.",
-      "rank": 6
+      "rank": 5
     },
     {
       "id": "2embed",
@@ -111,7 +96,7 @@
       "defaultMode": "sandbox",
       "baseline": "Sandbox playback unconfirmed",
       "note": "No decoded video was observed in the bounded sandbox startup check. Interaction or more loading time may be needed; this does not prove a failure.",
-      "rank": 7
+      "rank": 6
     },
     {
       "id": "apiplayer",
@@ -126,7 +111,7 @@
       "defaultMode": "sandbox",
       "baseline": "Sandbox playback unconfirmed",
       "note": "No decoded video was observed in the bounded sandbox startup check. Interaction or more loading time may be needed; this does not prove a failure.",
-      "rank": 8
+      "rank": 7
     },
     {
       "id": "cinextream",
@@ -141,7 +126,7 @@
       "defaultMode": "sandbox",
       "baseline": "Sandbox playback unconfirmed",
       "note": "No decoded video was observed in the bounded sandbox startup check. Interaction or more loading time may be needed; this does not prove a failure.",
-      "rank": 9
+      "rank": 8
     },
     {
       "id": "cinezo",
@@ -156,7 +141,7 @@
       "defaultMode": "sandbox",
       "baseline": "Sandbox playback unconfirmed",
       "note": "No decoded video was observed in the bounded sandbox startup check. Interaction or more loading time may be needed; this does not prove a failure.",
-      "rank": 10
+      "rank": 9
     },
     {
       "id": "embedwave",
@@ -171,7 +156,7 @@
       "defaultMode": "sandbox",
       "baseline": "Sandbox playback unconfirmed",
       "note": "No decoded video was observed in the bounded sandbox startup check. Interaction or more loading time may be needed; this does not prove a failure.",
-      "rank": 11
+      "rank": 10
     },
     {
       "id": "filmu",
@@ -186,7 +171,7 @@
       "defaultMode": "sandbox",
       "baseline": "Sandbox playback unconfirmed",
       "note": "No decoded video was observed in the bounded sandbox startup check. Interaction or more loading time may be needed; this does not prove a failure.",
-      "rank": 12
+      "rank": 11
     },
     {
       "id": "hnembed",
@@ -201,7 +186,7 @@
       "defaultMode": "sandbox",
       "baseline": "Sandbox playback unconfirmed",
       "note": "No decoded video was observed in the bounded sandbox startup check. Interaction or more loading time may be needed; this does not prove a failure.",
-      "rank": 13
+      "rank": 12
     },
     {
       "id": "ollyembed",
@@ -216,7 +201,7 @@
       "defaultMode": "sandbox",
       "baseline": "Sandbox playback unconfirmed",
       "note": "No decoded video was observed in the bounded sandbox startup check. Interaction or more loading time may be needed; this does not prove a failure.",
-      "rank": 14
+      "rank": 13
     },
     {
       "id": "vidcore",
@@ -231,7 +216,7 @@
       "defaultMode": "sandbox",
       "baseline": "Sandbox playback unconfirmed",
       "note": "No decoded video was observed in the bounded sandbox startup check. Interaction or more loading time may be needed; this does not prove a failure.",
-      "rank": 15
+      "rank": 14
     },
     {
       "id": "vidking",
@@ -246,7 +231,7 @@
       "defaultMode": "sandbox",
       "baseline": "Sandbox playback unconfirmed",
       "note": "No decoded video was observed in the bounded sandbox startup check. Interaction or more loading time may be needed; this does not prove a failure.",
-      "rank": 16
+      "rank": 15
     },
     {
       "id": "vidzee",
@@ -261,7 +246,7 @@
       "defaultMode": "sandbox",
       "baseline": "Sandbox playback unconfirmed",
       "note": "No decoded video was observed in the bounded sandbox startup check. Interaction or more loading time may be needed; this does not prove a failure.",
-      "rank": 17
+      "rank": 16
     },
     {
       "id": "wave",
@@ -276,6 +261,21 @@
       "defaultMode": "sandbox",
       "baseline": "Sandbox playback unconfirmed",
       "note": "No decoded video was observed in the bounded sandbox startup check. Interaction or more loading time may be needed; this does not prove a failure.",
+      "rank": 17
+    },
+    {
+      "id": "vidrift",
+      "name": "VidRift",
+      "home": "https://vidrift.net/",
+      "docs": "https://vidrift.net/docs/",
+      "embed": "https://embed.vidrift.net/embed/movie/299534",
+      "adapter": "vidrift",
+      "controls": false,
+      "referrerPolicy": "strict-origin-when-cross-origin",
+      "group": "normal",
+      "defaultMode": "normal",
+      "baseline": "Sandbox rejected after brief playback",
+      "note": "User observed brief playback followed by a white screen and a request to remove the sandbox on October 15, 2026. Treat sandbox mode as incompatible; normal mode is unverified and may allow redirects or pop-ups.",
       "rank": 18
     },
     {
@@ -430,7 +430,7 @@
     },
     {
       "id": "vidsrc-hair",
-      "name": "VidSrc · hair",
+      "name": "VidSrc \u00b7 hair",
       "home": "https://vidsrc.hair/",
       "docs": "https://vidsrc.hair/",
       "embed": "https://vidsrc.hair/embed/movie/299534",
@@ -445,7 +445,7 @@
     },
     {
       "id": "vidsrc-link",
-      "name": "VidSrc · link",
+      "name": "VidSrc \u00b7 link",
       "home": "https://www.vidsrc.link/",
       "docs": "https://www.vidsrc.link/",
       "embed": "https://vidsrc.link/embed/movie/299534",
@@ -460,7 +460,7 @@
     },
     {
       "id": "vidsrc-pk",
-      "name": "VidSrc · pk",
+      "name": "VidSrc \u00b7 pk",
       "home": "https://vidsrc.pk/",
       "docs": "https://vidsrc.pk/",
       "embed": "https://embed.vidsrc.pk/movie/tt4154796",
@@ -475,7 +475,7 @@
     },
     {
       "id": "vidsrc",
-      "name": "VidSrc · sh",
+      "name": "VidSrc \u00b7 sh",
       "home": "https://vidsrc.sh/vidsrc/docs/",
       "docs": "https://vidsrc.sh/vidsrc/docs/",
       "embed": "https://vidsrc.sh/embed/movie/299534",
@@ -790,7 +790,7 @@
     },
     {
       "id": "vidsrc-cc",
-      "name": "VidSrc · cc",
+      "name": "VidSrc \u00b7 cc",
       "home": "https://vidsrc.cc/",
       "docs": "https://vidsrc.cc/",
       "embed": null,

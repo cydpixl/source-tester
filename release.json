@@ -1,5 +1,5 @@
 {
-  "version": "1.0.1",
+  "version": "1.0.2",
   "date": "2026-10-15",
   "endgameTests": 40,
   "candidates": 13,
@@ -8,5 +8,6 @@
     "unknown": 14,
     "normal": 22,
     "candidate": 13
-  }
+  },
+  "notes": "VidRift reclassified as sandbox-incompatible after a delayed white screen and remove-sandbox prompt; normal test offered by default, compatibility unverified."
 }
