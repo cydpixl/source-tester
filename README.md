@@ -16,3 +16,8 @@ The iframe sandbox allows scripts, same-origin behavior, and presentation; it om
 The initial dataset intentionally retains earlier failures and unverified candidates. No browser result is a guarantee of availability, compatibility, or access on another device/network.
 
 Film metadata and poster: TMDB. Source documentation links are included with each entry.
+
+## Expanded research 1.1.0
+94 entries: 41 documented Endgame embed tests and 53 unverified discovery candidates. FMHY https://fmhy.net/video supplied 40 new candidate sites; their embed URLs have deliberately not been guessed. VidZen documents a TMDB movie embed.
+
+19 sources were checked in sandbox mode for three observations across 42 seconds, using independent browser contexts. Five showed advancing decoded video: CineSrc, ScreenScape, Cinextream, VidCore, VidZen. This bounded check does not confirm every frame is the intended film or guarantee continued availability. Other sources remain unconfirmed, not declared broken. VidRift remains normal-mode only after a user-observed delayed sandbox rejection. Machine-readable observations: sandbox-evidence.json.

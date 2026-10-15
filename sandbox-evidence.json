@@ -1,0 +1,527 @@
+[
+  {
+    "id": "cinesrc",
+    "at": "2026-10-15T16:36:29.945Z",
+    "mode": "sandbox",
+    "samples": [
+      {
+        "videos": [
+          {
+            "time": 7.535124,
+            "width": 2592,
+            "ready": 4,
+            "paused": false
+          }
+        ],
+        "sandboxRejected": false
+      },
+      {
+        "videos": [
+          {
+            "time": 22.554108,
+            "width": 2592,
+            "ready": 4,
+            "paused": false
+          }
+        ],
+        "sandboxRejected": false
+      },
+      {
+        "videos": [
+          {
+            "time": 37.559221,
+            "width": 2592,
+            "ready": 4,
+            "paused": false
+          }
+        ],
+        "sandboxRejected": false
+      }
+    ],
+    "sustained": true,
+    "rejected": false
+  },
+  {
+    "id": "111movies",
+    "at": "2026-10-15T16:36:29.979Z",
+    "mode": "sandbox",
+    "samples": [
+      {
+        "videos": [],
+        "sandboxRejected": false
+      },
+      {
+        "videos": [],
+        "sandboxRejected": false
+      },
+      {
+        "videos": [],
+        "sandboxRejected": false
+      }
+    ],
+    "sustained": false,
+    "rejected": false
+  },
+  {
+    "id": "screenscape",
+    "at": "2026-10-15T16:36:29.970Z",
+    "mode": "sandbox",
+    "samples": [
+      {
+        "videos": [
+          {
+            "time": 8.053942,
+            "width": 1280,
+            "ready": 4,
+            "paused": false
+          }
+        ],
+        "sandboxRejected": false
+      },
+      {
+        "videos": [
+          {
+            "time": 23.095413,
+            "width": 1280,
+            "ready": 4,
+            "paused": false
+          }
+        ],
+        "sandboxRejected": false
+      },
+      {
+        "videos": [
+          {
+            "time": 38.106747,
+            "width": 1280,
+            "ready": 4,
+            "paused": false
+          }
+        ],
+        "sandboxRejected": false
+      }
+    ],
+    "sustained": true,
+    "rejected": false
+  },
+  {
+    "id": "moviesapi",
+    "at": "2026-10-15T16:36:29.970Z",
+    "mode": "sandbox",
+    "samples": [
+      {
+        "videos": [
+          {
+            "time": 0,
+            "width": 0,
+            "ready": 0,
+            "paused": true
+          }
+        ],
+        "sandboxRejected": false
+      },
+      {
+        "videos": [
+          {
+            "time": 0,
+            "width": 0,
+            "ready": 0,
+            "paused": true
+          }
+        ],
+        "sandboxRejected": false
+      },
+      {
+        "videos": [
+          {
+            "time": 0,
+            "width": 0,
+            "ready": 0,
+            "paused": true
+          }
+        ],
+        "sandboxRejected": false
+      }
+    ],
+    "sustained": false,
+    "rejected": false
+  },
+  {
+    "id": "vidlove",
+    "at": "2026-10-15T16:37:12.306Z",
+    "mode": "sandbox",
+    "samples": [
+      {
+        "videos": [],
+        "sandboxRejected": false
+      },
+      {
+        "videos": [],
+        "sandboxRejected": false
+      },
+      {
+        "videos": [],
+        "sandboxRejected": false
+      }
+    ],
+    "sustained": false,
+    "rejected": false
+  },
+  {
+    "id": "2embed",
+    "at": "2026-10-15T16:37:12.480Z",
+    "mode": "sandbox",
+    "samples": [
+      {
+        "videos": [],
+        "sandboxRejected": false
+      },
+      {
+        "videos": [],
+        "sandboxRejected": false
+      },
+      {
+        "videos": [],
+        "sandboxRejected": false
+      }
+    ],
+    "sustained": false,
+    "rejected": false
+  },
+  {
+    "id": "apiplayer",
+    "at": "2026-10-15T16:37:12.546Z",
+    "mode": "sandbox",
+    "samples": [
+      {
+        "videos": [],
+        "sandboxRejected": false
+      },
+      {
+        "videos": [],
+        "sandboxRejected": false
+      },
+      {
+        "videos": [],
+        "sandboxRejected": false
+      }
+    ],
+    "sustained": false,
+    "rejected": false
+  },
+  {
+    "id": "cinextream",
+    "at": "2026-10-15T16:37:13.334Z",
+    "mode": "sandbox",
+    "samples": [
+      {
+        "videos": [
+          {
+            "time": 8.849146,
+            "width": 1920,
+            "ready": 4,
+            "paused": false
+          }
+        ],
+        "sandboxRejected": false
+      },
+      {
+        "videos": [
+          {
+            "time": 23.875419,
+            "width": 1920,
+            "ready": 4,
+            "paused": false
+          }
+        ],
+        "sandboxRejected": false
+      },
+      {
+        "videos": [
+          {
+            "time": 38.889569,
+            "width": 1920,
+            "ready": 4,
+            "paused": false
+          }
+        ],
+        "sandboxRejected": false
+      }
+    ],
+    "sustained": true,
+    "rejected": false
+  },
+  {
+    "id": "cinezo",
+    "at": "2026-10-15T16:37:54.741Z",
+    "mode": "sandbox",
+    "samples": [
+      {
+        "videos": [],
+        "sandboxRejected": false
+      },
+      {
+        "videos": [],
+        "sandboxRejected": false
+      },
+      {
+        "videos": [],
+        "sandboxRejected": false
+      }
+    ],
+    "sustained": false,
+    "rejected": false
+  },
+  {
+    "id": "embedwave",
+    "at": "2026-10-15T16:37:54.856Z",
+    "mode": "sandbox",
+    "samples": [
+      {
+        "videos": [
+          {
+            "time": 0,
+            "width": 0,
+            "ready": 0,
+            "paused": true
+          }
+        ],
+        "sandboxRejected": false
+      },
+      {
+        "videos": [
+          {
+            "time": 0,
+            "width": 0,
+            "ready": 0,
+            "paused": true
+          }
+        ],
+        "sandboxRejected": false
+      },
+      {
+        "videos": [
+          {
+            "time": 0,
+            "width": 0,
+            "ready": 0,
+            "paused": true
+          }
+        ],
+        "sandboxRejected": false
+      }
+    ],
+    "sustained": false,
+    "rejected": false
+  },
+  {
+    "id": "filmu",
+    "at": "2026-10-15T16:37:55.044Z",
+    "mode": "sandbox",
+    "samples": [
+      {
+        "videos": [],
+        "sandboxRejected": false
+      },
+      {
+        "videos": [],
+        "sandboxRejected": false
+      },
+      {
+        "videos": [],
+        "sandboxRejected": false
+      }
+    ],
+    "sustained": false,
+    "rejected": false
+  },
+  {
+    "id": "hnembed",
+    "at": "2026-10-15T16:37:55.556Z",
+    "mode": "sandbox",
+    "samples": [
+      {
+        "videos": [],
+        "sandboxRejected": false
+      },
+      {
+        "videos": [],
+        "sandboxRejected": false
+      },
+      {
+        "videos": [],
+        "sandboxRejected": false
+      }
+    ],
+    "sustained": false,
+    "rejected": false
+  },
+  {
+    "id": "ollyembed",
+    "at": "2026-10-15T16:38:37.052Z",
+    "mode": "sandbox",
+    "samples": [
+      {
+        "videos": [],
+        "sandboxRejected": false
+      },
+      {
+        "videos": [],
+        "sandboxRejected": false
+      },
+      {
+        "videos": [],
+        "sandboxRejected": false
+      }
+    ],
+    "sustained": false,
+    "rejected": false
+  },
+  {
+    "id": "vidcore",
+    "at": "2026-10-15T16:38:37.166Z",
+    "mode": "sandbox",
+    "samples": [
+      {
+        "videos": [
+          {
+            "time": 2.62187,
+            "width": 2579,
+            "ready": 4,
+            "paused": false
+          }
+        ],
+        "sandboxRejected": false
+      },
+      {
+        "videos": [
+          {
+            "time": 17.650821,
+            "width": 2579,
+            "ready": 4,
+            "paused": false
+          }
+        ],
+        "sandboxRejected": false
+      },
+      {
+        "videos": [
+          {
+            "time": 32.659237,
+            "width": 2579,
+            "ready": 4,
+            "paused": false
+          }
+        ],
+        "sandboxRejected": false
+      }
+    ],
+    "sustained": true,
+    "rejected": false
+  },
+  {
+    "id": "vidking",
+    "at": "2026-10-15T16:38:37.308Z",
+    "mode": "sandbox",
+    "samples": [
+      {
+        "videos": [],
+        "sandboxRejected": false
+      },
+      {
+        "videos": [],
+        "sandboxRejected": false
+      },
+      {
+        "videos": [],
+        "sandboxRejected": false
+      }
+    ],
+    "sustained": false,
+    "rejected": false
+  },
+  {
+    "id": "vidzee",
+    "at": "2026-10-15T16:38:37.745Z",
+    "mode": "sandbox",
+    "samples": [
+      {
+        "videos": [],
+        "sandboxRejected": false
+      },
+      {
+        "videos": [],
+        "sandboxRejected": false
+      },
+      {
+        "videos": [],
+        "sandboxRejected": false
+      }
+    ],
+    "sustained": false,
+    "rejected": false
+  },
+  {
+    "id": "wave",
+    "at": "2026-10-15T16:39:19.437Z",
+    "mode": "sandbox",
+    "samples": [
+      {
+        "videos": [],
+        "sandboxRejected": false
+      },
+      {
+        "videos": [],
+        "sandboxRejected": false
+      },
+      {
+        "videos": [],
+        "sandboxRejected": false
+      }
+    ],
+    "sustained": false,
+    "rejected": false
+  },
+  {
+    "id": "vidzen",
+    "at": "2026-10-15T16:39:19.546Z",
+    "mode": "sandbox",
+    "samples": [
+      {
+        "videos": [
+          {
+            "time": 0,
+            "width": 1711,
+            "ready": 4,
+            "paused": true
+          }
+        ],
+        "sandboxRejected": false
+      },
+      {
+        "videos": [
+          {
+            "time": 14.944509,
+            "width": 1141,
+            "ready": 4,
+            "paused": false
+          }
+        ],
+        "sandboxRejected": false
+      },
+      {
+        "videos": [
+          {
+            "time": 29.953609,
+            "width": 1141,
+            "ready": 4,
+            "paused": false
+          }
+        ],
+        "sandboxRejected": false
+      }
+    ],
+    "sustained": true,
+    "rejected": false
+  }
+]
