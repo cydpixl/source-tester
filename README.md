@@ -1,23 +1,11 @@
 # Source Tester
 
-A standalone Endgame compatibility checklist for PIXL. Hosted at https://cydpixl.github.io/source-tester/.
+Focused five-source Avengers: Endgame compatibility tester, hosted at https://cydpixl.github.io/source-tester/.
 
-- 40 documented Endgame embed endpoints and 13 additional candidates whose Endgame endpoints were not verified.
-- Sandbox playback observed first, followed by unverified sandbox tests and then normal/direct tests. Ranking is based on the earlier October 15, 2026 browser checks, not the visitor's network.
-- Each test opens in a new tab. Normal and direct modes are also available; normal embeds do not restrict provider pop-ups or redirects.
-- Separate manual results and notes for sandbox, normal, and direct modes. Local storage shares updates across this site's tabs without an opener relationship.
-- Search, source groups, result filters, and JSON export. No accounts, backend, analytics, media proxy, or service worker.
-- The tool does not change or override network filtering. A visitor must inspect and record a filter block themselves. A frame load is not treated as playback success.
+CineSrc, ScreenScape, Cinextream, VidCore, and VidRift only. Sandbox is the first test for every source; VidRift is marked inconsistent because earlier playback ended with a sandbox warning.
 
-Serve the directory with any static HTTP server. GitHub Pages publishes the root of `main`. Relative assets and hash routes support a project-site path without a custom 404 handler.
+Each player opens in a separate tab. Mark Works, Blocked, Does not play, or Sandbox issue and optionally add a note. Sandbox, normal, and direct results remain separate and persist in this browser. Export results downloads a JSON report to share manually. No account is required. No data is sent to another person automatically.
 
-The iframe sandbox allows scripts, same-origin behavior, and presentation; it omits popup and top-navigation permissions. Source HTML remains on the provider's original origin. Embedded ads can still appear within the frame.
+The tester measures compatibility and records filter blocks; it does not change network filtering. An iframe load does not count as successful playback. Earlier short observations do not guarantee continued playback or correct film identity.
 
-The initial dataset intentionally retains earlier failures and unverified candidates. No browser result is a guarantee of availability, compatibility, or access on another device/network.
-
-Film metadata and poster: TMDB. Source documentation links are included with each entry.
-
-## Expanded research 1.1.0
-94 entries: 41 documented Endgame embed tests and 53 unverified discovery candidates. FMHY https://fmhy.net/video supplied 40 new candidate sites; their embed URLs have deliberately not been guessed. VidZen documents a TMDB movie embed.
-
-19 sources were checked in sandbox mode for three observations across 42 seconds, using independent browser contexts. Five showed advancing decoded video: CineSrc, ScreenScape, Cinextream, VidCore, VidZen. This bounded check does not confirm every frame is the intended film or guarantee continued availability. Other sources remain unconfirmed, not declared broken. VidRift remains normal-mode only after a user-observed delayed sandbox rejection. Machine-readable observations: sandbox-evidence.json.
+The previous full research dataset is preserved in sources-research-archive.json. Existing result storage keys remain unchanged. GitHub Pages publishes the repository root from main.
