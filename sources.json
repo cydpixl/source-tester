@@ -279,6 +279,51 @@
       "rank": 18
     },
     {
+      "id": "fmhy-rive",
+      "name": "Rive",
+      "home": "https://www.rivestream.app/",
+      "docs": "https://www.rivestream.app/embed/docs",
+      "embed": "https://www.rivestream.app/embed?type=movie&id=299534",
+      "adapter": null,
+      "controls": false,
+      "group": "unknown",
+      "defaultMode": "sandbox",
+      "baseline": "60-second playback check unconfirmed",
+      "note": "Official endpoint documented. 60-second headless check on October 15, 2026: sandbox unconfirmed; normal unconfirmed. Movie identity not visually verified; school/network filtering is not tested.",
+      "rank": 19,
+      "referrerPolicy": "strict-origin-when-cross-origin"
+    },
+    {
+      "id": "vidsrc-mov",
+      "name": "VidSrc.mov",
+      "home": "https://vidsrc.mov/",
+      "docs": "https://vidsrc.mov/",
+      "embed": "https://vidsrc.mov/embed/movie/299534",
+      "adapter": null,
+      "controls": false,
+      "group": "unknown",
+      "defaultMode": "sandbox",
+      "referrerPolicy": "strict-origin-when-cross-origin",
+      "baseline": "60-second playback check unconfirmed",
+      "note": "Official endpoint documented. 60-second headless check on October 15, 2026: sandbox unconfirmed; normal unconfirmed. Movie identity not visually verified; school/network filtering is not tested.",
+      "rank": 20
+    },
+    {
+      "id": "frembed",
+      "name": "Frembed",
+      "home": "https://frembed.bar/",
+      "docs": "https://frembed.bar/api-docs",
+      "embed": "https://frembed.bar/embed/movie/299534",
+      "adapter": null,
+      "controls": false,
+      "group": "unknown",
+      "defaultMode": "sandbox",
+      "referrerPolicy": "strict-origin-when-cross-origin",
+      "baseline": "60-second playback check unconfirmed",
+      "note": "Official endpoint documented. 60-second headless check on October 15, 2026: sandbox unconfirmed; normal unconfirmed. Movie identity not visually verified; school/network filtering is not tested. Provider offers French/original/subtitled versions.",
+      "rank": 21
+    },
+    {
       "id": "vidrift",
       "name": "VidRift",
       "home": "https://vidrift.net/",
@@ -291,7 +336,7 @@
       "defaultMode": "normal",
       "baseline": "Sandbox rejected after brief playback",
       "note": "User observed brief playback followed by a white screen and a request to remove the sandbox on October 15, 2026. Treat sandbox mode as incompatible; normal mode is unverified and may allow redirects or pop-ups.",
-      "rank": 19
+      "rank": 22
     },
     {
       "id": "vidnest",
@@ -306,7 +351,7 @@
       "defaultMode": "normal",
       "baseline": "Sandbox rejected or unsupported",
       "note": "The earlier browser check or provider documentation reported a sandbox restriction. Normal mode permits provider pop-ups and redirects. Decoded video was observed in the earlier normal-mode check.",
-      "rank": 20
+      "rank": 23
     },
     {
       "id": "vidrock",
@@ -321,7 +366,7 @@
       "defaultMode": "normal",
       "baseline": "Sandbox rejected or unsupported",
       "note": "The earlier browser check or provider documentation reported a sandbox restriction. Normal mode permits provider pop-ups and redirects. Decoded video was observed in the earlier normal-mode check.",
-      "rank": 21
+      "rank": 24
     },
     {
       "id": "vidy",
@@ -336,7 +381,7 @@
       "defaultMode": "normal",
       "baseline": "Sandbox rejected or unsupported",
       "note": "The earlier browser check or provider documentation reported a sandbox restriction. Normal mode permits provider pop-ups and redirects. Decoded video was observed in the earlier normal-mode check.",
-      "rank": 22
+      "rank": 25
     },
     {
       "id": "vixsrc",
@@ -351,7 +396,7 @@
       "defaultMode": "normal",
       "baseline": "Sandbox rejected or unsupported",
       "note": "The earlier browser check or provider documentation reported a sandbox restriction. Normal mode permits provider pop-ups and redirects. Decoded video was observed in the earlier normal-mode check.",
-      "rank": 23
+      "rank": 26
     },
     {
       "id": "embedmaster",
@@ -366,7 +411,7 @@
       "defaultMode": "normal",
       "baseline": "Sandbox rejected or unsupported",
       "note": "The earlier browser check or provider documentation reported a sandbox restriction. Normal mode permits provider pop-ups and redirects.",
-      "rank": 24
+      "rank": 27
     },
     {
       "id": "superembed",
@@ -381,7 +426,7 @@
       "defaultMode": "normal",
       "baseline": "Sandbox rejected or unsupported",
       "note": "The earlier browser check or provider documentation reported a sandbox restriction. Normal mode permits provider pop-ups and redirects.",
-      "rank": 25
+      "rank": 28
     },
     {
       "id": "vidapi",
@@ -396,7 +441,7 @@
       "defaultMode": "normal",
       "baseline": "Sandbox rejected or unsupported",
       "note": "The earlier browser check or provider documentation reported a sandbox restriction. Normal mode permits provider pop-ups and redirects.",
-      "rank": 26
+      "rank": 29
     },
     {
       "id": "vidbolt",
@@ -411,7 +456,7 @@
       "defaultMode": "normal",
       "baseline": "Sandbox rejected or unsupported",
       "note": "The earlier browser check or provider documentation reported a sandbox restriction. Normal mode permits provider pop-ups and redirects.",
-      "rank": 27
+      "rank": 30
     },
     {
       "id": "videasy",
@@ -426,7 +471,7 @@
       "defaultMode": "normal",
       "baseline": "Sandbox rejected or unsupported",
       "note": "The earlier browser check or provider documentation reported a sandbox restriction. Normal mode permits provider pop-ups and redirects.",
-      "rank": 28
+      "rank": 31
     },
     {
       "id": "vidlink",
@@ -441,7 +486,7 @@
       "defaultMode": "normal",
       "baseline": "Sandbox rejected or unsupported",
       "note": "The earlier browser check or provider documentation reported a sandbox restriction. Normal mode permits provider pop-ups and redirects.",
-      "rank": 29
+      "rank": 32
     },
     {
       "id": "vidsrc-hair",
@@ -456,7 +501,7 @@
       "defaultMode": "normal",
       "baseline": "Sandbox rejected or unsupported",
       "note": "The earlier browser check or provider documentation reported a sandbox restriction. Normal mode permits provider pop-ups and redirects.",
-      "rank": 30
+      "rank": 33
     },
     {
       "id": "vidsrc-link",
@@ -471,7 +516,7 @@
       "defaultMode": "normal",
       "baseline": "Sandbox rejected or unsupported",
       "note": "The earlier browser check or provider documentation reported a sandbox restriction. Normal mode permits provider pop-ups and redirects.",
-      "rank": 31
+      "rank": 34
     },
     {
       "id": "vidsrc-pk",
@@ -486,7 +531,7 @@
       "defaultMode": "normal",
       "baseline": "Sandbox rejected or unsupported",
       "note": "The earlier browser check or provider documentation reported a sandbox restriction. Normal mode permits provider pop-ups and redirects.",
-      "rank": 32
+      "rank": 35
     },
     {
       "id": "vidsrc",
@@ -501,7 +546,7 @@
       "defaultMode": "normal",
       "baseline": "Sandbox rejected or unsupported",
       "note": "The earlier browser check or provider documentation reported a sandbox restriction. Normal mode permits provider pop-ups and redirects.",
-      "rank": 33
+      "rank": 36
     },
     {
       "id": "vidfast",
@@ -516,7 +561,7 @@
       "defaultMode": "normal",
       "baseline": "Earlier framing restriction",
       "note": "The earlier browser check reported a framing restriction. Try the direct source link to distinguish iframe policy from network filtering.",
-      "rank": 34
+      "rank": 37
     },
     {
       "id": "autoembed",
@@ -531,7 +576,7 @@
       "defaultMode": "normal",
       "baseline": "Earlier framing restriction",
       "note": "The earlier browser check reported a framing restriction. Try the direct source link to distinguish iframe policy from network filtering.",
-      "rank": 35
+      "rank": 38
     },
     {
       "id": "embedapi",
@@ -546,7 +591,7 @@
       "defaultMode": "normal",
       "baseline": "Earlier framing restriction",
       "note": "The earlier browser check reported a framing restriction. Try the direct source link to distinguish iframe policy from network filtering.",
-      "rank": 36
+      "rank": 39
     },
     {
       "id": "ezvidapi",
@@ -561,7 +606,7 @@
       "defaultMode": "normal",
       "baseline": "Earlier framing restriction",
       "note": "The earlier browser check reported a framing restriction. Try the direct source link to distinguish iframe policy from network filtering.",
-      "rank": 37
+      "rank": 40
     },
     {
       "id": "mapple",
@@ -576,7 +621,7 @@
       "defaultMode": "normal",
       "baseline": "Earlier framing restriction",
       "note": "The earlier browser check reported a framing restriction. Try the direct source link to distinguish iframe policy from network filtering.",
-      "rank": 38
+      "rank": 41
     },
     {
       "id": "stellar",
@@ -591,7 +636,7 @@
       "defaultMode": "normal",
       "baseline": "Earlier framing restriction",
       "note": "The earlier browser check reported a framing restriction. Try the direct source link to distinguish iframe policy from network filtering.",
-      "rank": 39
+      "rank": 42
     },
     {
       "id": "vidify",
@@ -606,7 +651,7 @@
       "defaultMode": "normal",
       "baseline": "Earlier framing restriction",
       "note": "The earlier browser check reported a framing restriction. Try the direct source link to distinguish iframe policy from network filtering.",
-      "rank": 40
+      "rank": 43
     },
     {
       "id": "vidplus",
@@ -621,7 +666,7 @@
       "defaultMode": "normal",
       "baseline": "Earlier framing restriction",
       "note": "The earlier browser check reported a framing restriction. Try the direct source link to distinguish iframe policy from network filtering.",
-      "rank": 41
+      "rank": 44
     },
     {
       "id": "candidate-6",
@@ -636,7 +681,7 @@
       "defaultMode": "direct",
       "baseline": "Endgame endpoint unverified",
       "note": "Homepage works as full streaming site; no public embed documentation found.",
-      "rank": 42
+      "rank": 45
     },
     {
       "id": "candidate-2",
@@ -651,7 +696,7 @@
       "defaultMode": "direct",
       "baseline": "Endgame endpoint unverified",
       "note": "Official homepage returned 502; historical third-party route evidence only.",
-      "rank": 43
+      "rank": 46
     },
     {
       "id": "candidate-9",
@@ -666,7 +711,7 @@
       "defaultMode": "direct",
       "baseline": "Endgame endpoint unverified",
       "note": "Official homepage inaccessible; historical third-party routes only.",
-      "rank": 44
+      "rank": 47
     },
     {
       "id": "candidate-8",
@@ -681,7 +726,7 @@
       "defaultMode": "direct",
       "baseline": "Endgame endpoint unverified",
       "note": "Official homepage returned 502; historical third-party routes only.",
-      "rank": 45
+      "rank": 48
     },
     {
       "id": "hexa",
@@ -696,7 +741,7 @@
       "defaultMode": "direct",
       "baseline": "Endgame endpoint unverified",
       "note": "Homepage 502; no verified public embed documentation.",
-      "rank": 46
+      "rank": 49
     },
     {
       "id": "candidate-0",
@@ -711,7 +756,7 @@
       "defaultMode": "direct",
       "baseline": "Endgame endpoint unverified",
       "note": "Official homepage inaccessible; provider mentioned by OllyEmbed but primary route not verified.",
-      "rank": 47
+      "rank": 50
     },
     {
       "id": "candidate-7",
@@ -726,7 +771,7 @@
       "defaultMode": "direct",
       "baseline": "Endgame endpoint unverified",
       "note": "Official homepage title readable, documentation body not readable in web tool.",
-      "rank": 48
+      "rank": 51
     },
     {
       "id": "candidate-4",
@@ -741,7 +786,7 @@
       "defaultMode": "direct",
       "baseline": "Endgame endpoint unverified",
       "note": "Official homepage returned 502; no primary route verified.",
-      "rank": 49
+      "rank": 52
     },
     {
       "id": "candidate-3",
@@ -756,7 +801,7 @@
       "defaultMode": "direct",
       "baseline": "Endgame endpoint unverified",
       "note": "Official homepage timed out; no primary route verified.",
-      "rank": 50
+      "rank": 53
     },
     {
       "id": "vidbinge",
@@ -771,7 +816,7 @@
       "defaultMode": "direct",
       "baseline": "Endgame endpoint unverified",
       "note": "Homepage inaccessible; historical embed-service evidence only.",
-      "rank": 51
+      "rank": 54
     },
     {
       "id": "candidate-5",
@@ -786,7 +831,7 @@
       "defaultMode": "direct",
       "baseline": "Endgame endpoint unverified",
       "note": "Current homepage is parked/domain for sale. Exclude from runnable sources.",
-      "rank": 52
+      "rank": 55
     },
     {
       "id": "candidate-1",
@@ -801,7 +846,7 @@
       "defaultMode": "direct",
       "baseline": "Endgame endpoint unverified",
       "note": "Official docs timed out; mentioned by Wave but primary route not verified.",
-      "rank": 53
+      "rank": 56
     },
     {
       "id": "vidsrc-cc",
@@ -816,7 +861,7 @@
       "defaultMode": "direct",
       "baseline": "Endgame endpoint unverified",
       "note": "Homepage HTTP403; historical v2/embed route not currently verified from primary docs.",
-      "rank": 54
+      "rank": 57
     },
     {
       "id": "fmhy-movy",
@@ -830,7 +875,7 @@
       "defaultMode": "direct",
       "baseline": "FMHY discovery · Endgame embed unverified",
       "note": "Listed in FMHY Movies / TV / Anime directory. Candidate site only: no verified public Endgame embed endpoint or sandbox result.",
-      "rank": 55
+      "rank": 58
     },
     {
       "id": "fmhy-popcornmovies",
@@ -844,7 +889,7 @@
       "defaultMode": "direct",
       "baseline": "FMHY discovery · Endgame embed unverified",
       "note": "Listed in FMHY Movies / TV / Anime directory. Candidate site only: no verified public Endgame embed endpoint or sandbox result.",
-      "rank": 56
+      "rank": 59
     },
     {
       "id": "fmhy-bingebox",
@@ -858,7 +903,7 @@
       "defaultMode": "direct",
       "baseline": "FMHY discovery · Endgame embed unverified",
       "note": "Listed in FMHY Movies / TV / Anime directory. Candidate site only: no verified public Endgame embed endpoint or sandbox result.",
-      "rank": 57
+      "rank": 60
     },
     {
       "id": "fmhy-7movies",
@@ -872,7 +917,7 @@
       "defaultMode": "direct",
       "baseline": "FMHY discovery · Endgame embed unverified",
       "note": "Listed in FMHY Movies / TV / Anime directory. Candidate site only: no verified public Endgame embed endpoint or sandbox result.",
-      "rank": 58
+      "rank": 61
     },
     {
       "id": "fmhy-shuttletv",
@@ -886,7 +931,7 @@
       "defaultMode": "direct",
       "baseline": "FMHY discovery · Endgame embed unverified",
       "note": "Listed in FMHY Movies / TV / Anime directory. Candidate site only: no verified public Endgame embed endpoint or sandbox result.",
-      "rank": 59
+      "rank": 62
     },
     {
       "id": "fmhy-flystream",
@@ -900,7 +945,7 @@
       "defaultMode": "direct",
       "baseline": "FMHY discovery · Endgame embed unverified",
       "note": "Listed in FMHY Movies / TV / Anime directory. Candidate site only: no verified public Endgame embed endpoint or sandbox result.",
-      "rank": 60
+      "rank": 63
     },
     {
       "id": "fmhy-atlantic",
@@ -914,21 +959,7 @@
       "defaultMode": "direct",
       "baseline": "FMHY discovery · Endgame embed unverified",
       "note": "Listed in FMHY Movies / TV / Anime directory. Candidate site only: no verified public Endgame embed endpoint or sandbox result.",
-      "rank": 61
-    },
-    {
-      "id": "fmhy-rive",
-      "name": "Rive",
-      "home": "https://www.rivestream.app/",
-      "docs": "https://fmhy.net/video",
-      "embed": null,
-      "adapter": null,
-      "controls": false,
-      "group": "candidate",
-      "defaultMode": "direct",
-      "baseline": "FMHY discovery · Endgame embed unverified",
-      "note": "Listed in FMHY Movies / TV / Anime directory. Candidate site only: no verified public Endgame embed endpoint or sandbox result.",
-      "rank": 62
+      "rank": 64
     },
     {
       "id": "fmhy-corsflix",
@@ -942,7 +973,7 @@
       "defaultMode": "direct",
       "baseline": "FMHY discovery · Endgame embed unverified",
       "note": "Listed in FMHY Movies / TV / Anime directory. Candidate site only: no verified public Endgame embed endpoint or sandbox result.",
-      "rank": 63
+      "rank": 65
     },
     {
       "id": "fmhy-flixer",
@@ -956,7 +987,7 @@
       "defaultMode": "direct",
       "baseline": "FMHY discovery · Endgame embed unverified",
       "note": "Listed in FMHY Movies / TV / Anime directory. Candidate site only: no verified public Endgame embed endpoint or sandbox result.",
-      "rank": 64
+      "rank": 66
     },
     {
       "id": "fmhy-hexa-su",
@@ -970,7 +1001,7 @@
       "defaultMode": "direct",
       "baseline": "FMHY discovery · Endgame embed unverified",
       "note": "Listed in FMHY Movies / TV / Anime directory. Candidate site only: no verified public Endgame embed endpoint or sandbox result.",
-      "rank": 65
+      "rank": 67
     },
     {
       "id": "fmhy-stellar-gdn",
@@ -984,7 +1015,7 @@
       "defaultMode": "direct",
       "baseline": "FMHY discovery · Endgame embed unverified",
       "note": "Listed in FMHY Movies / TV / Anime directory. Candidate site only: no verified public Endgame embed endpoint or sandbox result.",
-      "rank": 66
+      "rank": 68
     },
     {
       "id": "fmhy-vivarium",
@@ -998,7 +1029,7 @@
       "defaultMode": "direct",
       "baseline": "FMHY discovery · Endgame embed unverified",
       "note": "Listed in FMHY Movies / TV / Anime directory. Candidate site only: no verified public Endgame embed endpoint or sandbox result.",
-      "rank": 67
+      "rank": 69
     },
     {
       "id": "fmhy-meowtv",
@@ -1012,7 +1043,7 @@
       "defaultMode": "direct",
       "baseline": "FMHY discovery · Endgame embed unverified",
       "note": "Listed in FMHY Movies / TV / Anime directory. Candidate site only: no verified public Endgame embed endpoint or sandbox result.",
-      "rank": 68
+      "rank": 70
     },
     {
       "id": "fmhy-flickystream",
@@ -1026,7 +1057,7 @@
       "defaultMode": "direct",
       "baseline": "FMHY discovery · Endgame embed unverified",
       "note": "Listed in FMHY Movies / TV / Anime directory. Candidate site only: no verified public Endgame embed endpoint or sandbox result.",
-      "rank": 69
+      "rank": 71
     },
     {
       "id": "fmhy-arrowtv",
@@ -1040,7 +1071,7 @@
       "defaultMode": "direct",
       "baseline": "FMHY discovery · Endgame embed unverified",
       "note": "Listed in FMHY Movies / TV / Anime directory. Candidate site only: no verified public Endgame embed endpoint or sandbox result.",
-      "rank": 70
+      "rank": 72
     },
     {
       "id": "fmhy-movie-night",
@@ -1054,7 +1085,7 @@
       "defaultMode": "direct",
       "baseline": "FMHY discovery · Endgame embed unverified",
       "note": "Listed in FMHY Movies / TV / Anime directory. Candidate site only: no verified public Endgame embed endpoint or sandbox result.",
-      "rank": 71
+      "rank": 73
     },
     {
       "id": "fmhy-streamo",
@@ -1068,7 +1099,7 @@
       "defaultMode": "direct",
       "baseline": "FMHY discovery · Endgame embed unverified",
       "note": "Listed in FMHY Movies / TV / Anime directory. Candidate site only: no verified public Endgame embed endpoint or sandbox result.",
-      "rank": 72
+      "rank": 74
     },
     {
       "id": "fmhy-way2movies",
@@ -1082,7 +1113,7 @@
       "defaultMode": "direct",
       "baseline": "FMHY discovery · Endgame embed unverified",
       "note": "Listed in FMHY Movies / TV / Anime directory. Candidate site only: no verified public Endgame embed endpoint or sandbox result.",
-      "rank": 73
+      "rank": 75
     },
     {
       "id": "fmhy-reelix",
@@ -1096,7 +1127,7 @@
       "defaultMode": "direct",
       "baseline": "FMHY discovery · Endgame embed unverified",
       "note": "Listed in FMHY Movies / TV / Anime directory. Candidate site only: no verified public Endgame embed endpoint or sandbox result.",
-      "rank": 74
+      "rank": 76
     },
     {
       "id": "fmhy-coreflix",
@@ -1110,7 +1141,7 @@
       "defaultMode": "direct",
       "baseline": "FMHY discovery · Endgame embed unverified",
       "note": "Listed in FMHY Movies / TV / Anime directory. Candidate site only: no verified public Endgame embed endpoint or sandbox result.",
-      "rank": 75
+      "rank": 77
     },
     {
       "id": "fmhy-spacedom",
@@ -1124,7 +1155,7 @@
       "defaultMode": "direct",
       "baseline": "FMHY discovery · Endgame embed unverified",
       "note": "Listed in FMHY Movies / TV / Anime directory. Candidate site only: no verified public Endgame embed endpoint or sandbox result.",
-      "rank": 76
+      "rank": 78
     },
     {
       "id": "fmhy-chillflix",
@@ -1138,7 +1169,7 @@
       "defaultMode": "direct",
       "baseline": "FMHY discovery · Endgame embed unverified",
       "note": "Listed in FMHY Movies / TV / Anime directory. Candidate site only: no verified public Endgame embed endpoint or sandbox result.",
-      "rank": 77
+      "rank": 79
     },
     {
       "id": "fmhy-vuflix",
@@ -1152,7 +1183,7 @@
       "defaultMode": "direct",
       "baseline": "FMHY discovery · Endgame embed unverified",
       "note": "Listed in FMHY Movies / TV / Anime directory. Candidate site only: no verified public Endgame embed endpoint or sandbox result.",
-      "rank": 78
+      "rank": 80
     },
     {
       "id": "fmhy-toflix",
@@ -1166,7 +1197,7 @@
       "defaultMode": "direct",
       "baseline": "FMHY discovery · Endgame embed unverified",
       "note": "Listed in FMHY Movies / TV / Anime directory. Candidate site only: no verified public Endgame embed endpoint or sandbox result.",
-      "rank": 79
+      "rank": 81
     },
     {
       "id": "fmhy-cinetaro",
@@ -1180,7 +1211,7 @@
       "defaultMode": "direct",
       "baseline": "FMHY discovery · Endgame embed unverified",
       "note": "Listed in FMHY Movies / TV / Anime directory. Candidate site only: no verified public Endgame embed endpoint or sandbox result.",
-      "rank": 80
+      "rank": 82
     },
     {
       "id": "fmhy-moviebite",
@@ -1194,7 +1225,7 @@
       "defaultMode": "direct",
       "baseline": "FMHY discovery · Endgame embed unverified",
       "note": "Listed in FMHY Movies / TV / Anime directory. Candidate site only: no verified public Endgame embed endpoint or sandbox result.",
-      "rank": 81
+      "rank": 83
     },
     {
       "id": "fmhy-bingebang",
@@ -1208,7 +1239,7 @@
       "defaultMode": "direct",
       "baseline": "FMHY discovery · Endgame embed unverified",
       "note": "Listed in FMHY Movies / TV / Anime directory. Candidate site only: no verified public Endgame embed endpoint or sandbox result.",
-      "rank": 82
+      "rank": 84
     },
     {
       "id": "fmhy-cinema-army",
@@ -1222,7 +1253,7 @@
       "defaultMode": "direct",
       "baseline": "FMHY discovery · Endgame embed unverified",
       "note": "Listed in FMHY Movies / TV / Anime directory. Candidate site only: no verified public Endgame embed endpoint or sandbox result.",
-      "rank": 83
+      "rank": 85
     },
     {
       "id": "fmhy-svstream",
@@ -1236,7 +1267,7 @@
       "defaultMode": "direct",
       "baseline": "FMHY discovery · Endgame embed unverified",
       "note": "Listed in FMHY Movies / TV / Anime directory. Candidate site only: no verified public Endgame embed endpoint or sandbox result.",
-      "rank": 84
+      "rank": 86
     },
     {
       "id": "fmhy-cinemove",
@@ -1250,7 +1281,7 @@
       "defaultMode": "direct",
       "baseline": "FMHY discovery · Endgame embed unverified",
       "note": "Listed in FMHY Movies / TV / Anime directory. Candidate site only: no verified public Endgame embed endpoint or sandbox result.",
-      "rank": 85
+      "rank": 87
     },
     {
       "id": "fmhy-freekz",
@@ -1264,7 +1295,7 @@
       "defaultMode": "direct",
       "baseline": "FMHY discovery · Endgame embed unverified",
       "note": "Listed in FMHY Movies / TV / Anime directory. Candidate site only: no verified public Endgame embed endpoint or sandbox result.",
-      "rank": 86
+      "rank": 88
     },
     {
       "id": "fmhy-movish",
@@ -1278,7 +1309,7 @@
       "defaultMode": "direct",
       "baseline": "FMHY discovery · Endgame embed unverified",
       "note": "Listed in FMHY Movies / TV / Anime directory. Candidate site only: no verified public Endgame embed endpoint or sandbox result.",
-      "rank": 87
+      "rank": 89
     },
     {
       "id": "fmhy-cinemaos-live",
@@ -1292,7 +1323,7 @@
       "defaultMode": "direct",
       "baseline": "FMHY discovery · Endgame embed unverified",
       "note": "Listed in FMHY Movies / TV / Anime directory. Candidate site only: no verified public Endgame embed endpoint or sandbox result.",
-      "rank": 88
+      "rank": 90
     },
     {
       "id": "fmhy-cinecat",
@@ -1306,7 +1337,7 @@
       "defaultMode": "direct",
       "baseline": "FMHY discovery · Endgame embed unverified",
       "note": "Listed in FMHY Movies / TV / Anime directory. Candidate site only: no verified public Endgame embed endpoint or sandbox result.",
-      "rank": 89
+      "rank": 91
     },
     {
       "id": "fmhy-aether",
@@ -1320,7 +1351,7 @@
       "defaultMode": "direct",
       "baseline": "FMHY discovery · Endgame embed unverified",
       "note": "Listed in FMHY Movies / TV / Anime directory. Candidate site only: no verified public Endgame embed endpoint or sandbox result.",
-      "rank": 90
+      "rank": 92
     },
     {
       "id": "fmhy-kstream",
@@ -1334,7 +1365,7 @@
       "defaultMode": "direct",
       "baseline": "FMHY discovery · Endgame embed unverified",
       "note": "Listed in FMHY Movies / TV / Anime directory. Candidate site only: no verified public Endgame embed endpoint or sandbox result.",
-      "rank": 91
+      "rank": 93
     },
     {
       "id": "fmhy-cinefork",
@@ -1348,7 +1379,7 @@
       "defaultMode": "direct",
       "baseline": "FMHY discovery · Endgame embed unverified",
       "note": "Listed in FMHY Movies / TV / Anime directory. Candidate site only: no verified public Endgame embed endpoint or sandbox result.",
-      "rank": 92
+      "rank": 94
     },
     {
       "id": "fmhy-basement",
@@ -1362,7 +1393,7 @@
       "defaultMode": "direct",
       "baseline": "FMHY discovery · Endgame embed unverified",
       "note": "Listed in FMHY Movies / TV / Anime directory. Candidate site only: no verified public Endgame embed endpoint or sandbox result.",
-      "rank": 93
+      "rank": 95
     },
     {
       "id": "fmhy-p-stream-fork",
@@ -1376,7 +1407,7 @@
       "defaultMode": "direct",
       "baseline": "FMHY discovery · Endgame embed unverified",
       "note": "Listed in FMHY Movies / TV / Anime directory. Candidate site only: no verified public Endgame embed endpoint or sandbox result.",
-      "rank": 94
+      "rank": 96
     }
   ]
 }

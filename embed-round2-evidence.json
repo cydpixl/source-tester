@@ -1,0 +1,152 @@
+[
+  {
+    "id": "fmhy-rive",
+    "mode": "sandbox",
+    "startedAt": "2026-10-15T16:49:54.382Z",
+    "samples": [
+      {
+        "videos": [],
+        "rejected": false,
+        "frameCount": 1
+      },
+      {
+        "videos": [],
+        "rejected": false,
+        "frameCount": 1
+      },
+      {
+        "videos": [],
+        "rejected": false,
+        "frameCount": 1
+      }
+    ],
+    "sustained": false,
+    "rejected": false,
+    "identityVerified": false
+  },
+  {
+    "id": "fmhy-rive",
+    "mode": "normal",
+    "startedAt": "2026-10-15T16:49:54.389Z",
+    "samples": [
+      {
+        "videos": [],
+        "rejected": false,
+        "frameCount": 1
+      },
+      {
+        "videos": [],
+        "rejected": false,
+        "frameCount": 1
+      },
+      {
+        "videos": [],
+        "rejected": false,
+        "frameCount": 1
+      }
+    ],
+    "sustained": false,
+    "rejected": false,
+    "identityVerified": false
+  },
+  {
+    "id": "vidsrc-mov",
+    "mode": "sandbox",
+    "startedAt": "2026-10-15T16:49:54.408Z",
+    "samples": [
+      {
+        "videos": [],
+        "rejected": false,
+        "frameCount": 14
+      },
+      {
+        "videos": [],
+        "rejected": false,
+        "frameCount": 17
+      },
+      {
+        "videos": [],
+        "rejected": false,
+        "frameCount": 17
+      }
+    ],
+    "sustained": false,
+    "rejected": false,
+    "identityVerified": false
+  },
+  {
+    "id": "frembed",
+    "mode": "sandbox",
+    "startedAt": "2026-10-15T16:50:54.714Z",
+    "samples": [
+      {
+        "videos": [],
+        "rejected": false,
+        "frameCount": 4
+      },
+      {
+        "videos": [],
+        "rejected": false,
+        "frameCount": 4
+      },
+      {
+        "videos": [],
+        "rejected": false,
+        "frameCount": 4
+      }
+    ],
+    "sustained": false,
+    "rejected": false,
+    "identityVerified": false
+  },
+  {
+    "id": "frembed",
+    "mode": "normal",
+    "startedAt": "2026-10-15T16:50:54.926Z",
+    "samples": [
+      {
+        "videos": [],
+        "rejected": false,
+        "frameCount": 4
+      },
+      {
+        "videos": [],
+        "rejected": false,
+        "frameCount": 4
+      },
+      {
+        "videos": [],
+        "rejected": false,
+        "frameCount": 4
+      }
+    ],
+    "sustained": false,
+    "rejected": false,
+    "identityVerified": false
+  },
+  {
+    "id": "vidsrc-mov",
+    "mode": "normal",
+    "startedAt": "2026-10-15T16:50:54.685Z",
+    "samples": [
+      {
+        "videos": [],
+        "rejected": false,
+        "frameCount": 19
+      },
+      {
+        "videos": [],
+        "rejected": false,
+        "frameCount": 25
+      },
+      {
+        "videos": [],
+        "rejected": false,
+        "frameCount": 25
+      }
+    ],
+    "sustained": false,
+    "rejected": false,
+    "identityVerified": false
+  }
+]

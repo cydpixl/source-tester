@@ -1,14 +1,14 @@
 {
-  "version": "1.1.0",
+  "version": "1.2.0",
   "date": "2026-10-15",
-  "total": 94,
-  "endgameTests": 41,
-  "candidates": 53,
+  "total": 96,
+  "endgameTests": 44,
+  "candidates": 52,
   "groups": {
     "sandbox": 5,
-    "unknown": 13,
+    "unknown": 16,
     "normal": 23,
-    "candidate": 53
+    "candidate": 52
   },
-  "notes": "Expanded FMHY candidate directory and VidZen embed; repeated 42-second sandbox checks, with no inferred candidate embed URLs."
+  "notes": "Rive promoted from candidate after official embed documentation review; VidSrc.mov and Frembed added. Separate 60-second sandbox and normal checks recorded; no inference of school filter status or movie identity."
 }
