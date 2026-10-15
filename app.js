@@ -3,14 +3,14 @@ const $=s=>document.querySelector(s),escape=s=>String(s??'').replace(/[&<>"']/g,
 const STORAGE='pixl.source-tester.results.v1',MODE_STORAGE='pixl.source-tester.modes.v1';
 const verdicts=[['untested','Not tested'],['works','Works'],['blocked','Blocked'],['failed','Doesn’t play'],['sandbox-issue','Sandbox issue']];
 const groups=[['sandbox','Sandbox playback observed','Earlier checks'],['unknown','Sandbox compatibility unverified','Try sandbox first'],['normal','Normal player / direct tests','Sandbox or framing restrictions'],['candidate','Additional candidates','Endgame endpoint unverified']];
-const modes=['sandbox','normal','direct'];let sources=[],data,filter='all',teardown=()=>{},storageWarning=false,toastTimer;
-function read(key){try{const value=JSON.parse(localStorage.getItem(key)||'{}');return value&&typeof value==='object'&&!Array.isArray(value)?value:{}}catch{return {}}}
+const modes=['sandbox','normal','direct'];const volatile={};let sources=[],data,filter='all',teardown=()=>{},storageWarning=false,toastTimer;
+function read(key){if(storageWarning&&volatile[key])return volatile[key];try{const value=JSON.parse(localStorage.getItem(key)||'{}');return value&&typeof value==='object'&&!Array.isArray(value)?value:{}}catch{return volatile[key]||{}}}
 function safeURL(value){try{const url=new URL(value);return url.protocol==='https:'?url.href:''}catch{return ''}}
 function record(id,mode){const value=read(STORAGE)[id]?.[mode];return value&&verdicts.some(([key])=>key===value.verdict)?value:{verdict:'untested',note:''}}
 function activeMode(source){const mode=read(MODE_STORAGE)[source.id];return modes.includes(mode)?mode:source.defaultMode}
-function setMode(id,mode){try{const state=read(MODE_STORAGE);state[id]=mode;localStorage.setItem(MODE_STORAGE,JSON.stringify(state))}catch{warnStorage()}}
+function setMode(id,mode){try{const state=read(MODE_STORAGE);state[id]=mode;volatile[MODE_STORAGE]=state;localStorage.setItem(MODE_STORAGE,JSON.stringify(state))}catch{warnStorage()}}
 function warnStorage(){storageWarning=true;toast('Browser storage is unavailable. Export before closing this page.')}
-function save(id,mode,verdict,note){if(!sources.some(s=>s.id===id)||!modes.includes(mode)||!verdicts.some(([key])=>key===verdict))return;const state=read(STORAGE);state[id]||={};state[id][mode]={verdict,note:String(note??record(id,mode).note??'').slice(0,500),at:new Date().toISOString()};try{localStorage.setItem(STORAGE,JSON.stringify(state));$('#result-announcement').textContent='Saved '+(sources.find(s=>s.id===id)?.name||id)+' '+mode+' result.'}catch{warnStorage()}}
+function save(id,mode,verdict,note){if(!sources.some(s=>s.id===id)||!modes.includes(mode)||!verdicts.some(([key])=>key===verdict))return;const state=read(STORAGE);state[id]||={};state[id][mode]={verdict,note:String(note??record(id,mode).note??'').slice(0,500),at:new Date().toISOString()};volatile[STORAGE]=state;try{localStorage.setItem(STORAGE,JSON.stringify(state));$('#result-announcement').textContent='Saved '+(sources.find(s=>s.id===id)?.name||id)+' '+mode+' result.'}catch{warnStorage()}}
 function toast(text){$('#toast').textContent=text;$('#toast').hidden=false;clearTimeout(toastTimer);toastTimer=setTimeout(()=>$('#toast').hidden=true,3500)}
 const testURL=(source,mode=source.defaultMode)=>'#source='+encodeURIComponent(source.id)+'&mode='+mode;
 const label=verdict=>verdicts.find(([key])=>key===verdict)?.[1]||'Not tested';
