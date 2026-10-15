@@ -4,9 +4,9 @@
   "endgameTests": 40,
   "candidates": 13,
   "groups": {
-    "sandbox": 4,
+    "sandbox": 3,
     "unknown": 14,
-    "normal": 22,
+    "normal": 23,
     "candidate": 13
   },
   "notes": "VidRift reclassified as sandbox-incompatible after a delayed white screen and remove-sandbox prompt; normal test offered by default, compatibility unverified."
